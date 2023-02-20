@@ -12,10 +12,11 @@
 .place__paragraph:last-child {
     margin-bottom: 0;
 }
+
 @media screen and (max-width: 768px) {
     .place__paragraph {
-      font-size: 15px;
-    line-height: 27px;  
-    margin-bottom: 20px;
+        font-size: 15px;
+        line-height: 27px;
+        margin-bottom: 20px;
     }
 }
