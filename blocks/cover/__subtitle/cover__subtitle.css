@@ -11,7 +11,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    margin: 429px auto 245px;
+    margin: 419px auto 245px;
 }
 
 
@@ -23,7 +23,7 @@
 
 @media screen and (max-width: 769px) {
     .cover__subtitle {
-        margin: 299px auto 115px;
+        margin: 289px auto 115px;
     }
 }
 
