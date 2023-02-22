@@ -26,8 +26,10 @@
       <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-        <img class="lead__image" src="./images/lead__image.png" alt="">
-        <h4 class="lead__caption">ваша полка — верхняя</h4>
+        <figure class="lead__image-caption">
+          <img class="lead__image" src="./images/lead__image.png" alt="деаушка в поезде">
+          <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+        </figure>
       </section>
       <!-- Конец. Блок lead -->
 
@@ -43,8 +45,10 @@
 
         <ul class="intro__list">
           <li class="intro__list-numbers"> <span class="intro__list-text">Часовых поясов </span> 11</li>
-          <li class="intro__list-numbers"> <span class="intro__list-text">Объектов природного наследия ЮНЕСКО </span> 12</li>
-          <li class="intro__list-numbers"> <span class="intro__list-text">Объектов культурного наследия ЮНЕСКО </span> 16</li>
+          <li class="intro__list-numbers"> <span class="intro__list-text">Объектов природного наследия ЮНЕСКО </span> 12
+          </li>
+          <li class="intro__list-numbers"> <span class="intro__list-text">Объектов культурного наследия ЮНЕСКО </span>
+            16</li>
           <li class="intro__list-numbers"> <span class="intro__list-text">Природных заповедников </span> 105</li>
           <li class="intro__list-numbers"> <span class="intro__list-text">Аэропортов </span> 241</li>
         </ul>
@@ -53,31 +57,32 @@
 
       <!-- Начаало Блок photo-grid -->
       <section class="photo-grid">
-        <img class="photo-grid__item" src="./images/one__item.png" alt="">
-        <img class="photo-grid__item" src="./images/two__item.png" alt="">
-        <img class="photo-grid__item" src="./images/three__item.png" alt="">
-        <img class="photo-grid__item" src="./images/four__item.png" alt="">
-        <img class="photo-grid__item" src="./images/five__item.png" alt="">
-        <img class="photo-grid__item" src="./images/six__item.png" alt="">
-        <img class="photo-grid__item" src="./images/seven__item.png" alt="">
-        <img class="photo-grid__item" src="./images/eight__item.png" alt="">
-        <img class="photo-grid__item" src="./images/nine__item.png" alt="">
-        <img class="photo-grid__item" src="./images/ten__item.png" alt="">
-        <img class="photo-grid__item" src="./images/eleven__item.png" alt="">
-        <img class="photo-grid__item" src="./images/twelve__item.png" alt="">
-
+        <ul class="photo-grid__list-grid">
+          <li><img class="photo-grid__item" src="./images/one__item.png" alt="вид из окна поезда"></li>
+          <li><img class="photo-grid__item" src="./images/two__item.png" alt="Вершина горы и облака"></li>
+          <li><img class="photo-grid__item" src="./images/three__item.png" alt="Волк на стоге сена"></li>
+          <li><img class="photo-grid__item" src="./images/four__item.png" alt="Лес в тумане"></li>
+          <li><img class="photo-grid__item" src="./images/five__item.png" alt="Колесо машины на льду."></li>
+          <li><img class="photo-grid__item" src="./images/six__item.png" alt="Баргузинский залив на Байкале"></li>
+          <li><img class="photo-grid__item" src="./images/seven__item.png" alt="Вершина горы Эльбруса"></li>
+          <li><img class="photo-grid__item" src="./images/eight__item.png" alt="Знак пешеходного перехода"></li>
+          <li><img class="photo-grid__item" src="./images/nine__item.png" alt="Долина смерти. Камчатка"></li>
+          <li><img class="photo-grid__item" src="./images/ten__item.png" alt="Вулкан в Камчатке"></li>
+          <li><img class="photo-grid__item" src="./images/eleven__item.png" alt="Скалистый берег"></li>
+          <li><img class="photo-grid__item" src="./images/twelve__item.png" alt="Горный хребет Ергаки в тумане"></li>
+        </ul>
       </section>
       <!-- Конец. Блок photo-grid -->
 
       <!-- Начаало Блок places -->
       <section class="places">
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
             <h4 class="place__url-heading">URL</h4>
             <a class="place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
           </div>
-          <img class="place__image" src="./images/kosa__image.png" alt="">
+          <img class="place__image" src="./images/kosa__image.png" alt="Куршская коса">
 
           <div class="place__paragraph-list">
             <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта —
@@ -95,7 +100,7 @@
             <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
               target="_blank">National Geographic</a>
           </div>
-          <img class="place__image" src="./images/National-Geographic__image.png" alt="">
+          <img class="place__image" src="./images/National-Geographic__image.png" alt="Кольский полуостров">
 
           <div class="place__paragraph-list">
             <p class="place__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой
@@ -114,7 +119,7 @@
             <a class="place__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
               target="_blank">Facebook</a>
           </div>
-          <img class="place__image" src="./images/Altai__image.png" alt="">
+          <img class="place__image" src="./images/Altai__image.png" alt="Алтай">
           <div class="place__paragraph-list">
             <p class="place__paragraph">Алтай — одно из красивейших мест в России.
               В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и
@@ -146,7 +151,7 @@
             <h4 class="place__url-heading">URL</h4>
             <a class="place__link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
           </div>
-          <img class="place__image" src="./images/vodlozero__image.png" alt="">
+          <img class="place__image" src="./images/vodlozero__image.png" alt="Карелия">
           <div class="place__paragraph-list">
             <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская
               лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских
@@ -155,7 +160,7 @@
               В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья
               в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
           </div>
-        </div>
+        </article>
       </section>
 
       <!-- Конец. Блок places -->
@@ -163,29 +168,32 @@
 
       <!-- Начало Блок cover -->
       <section class="cover">
-        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
-          <img class="cover__background" src="./images/baikal__background.png" alt=""></a>
-        <h2 class="cover__title cover__title_while">До Байкала «на собаках»</h2>
-        <p class="cover__subtitle cover__subtitle_while">По мотивам учебной темы о Транссибе — путешествие от столицы до
-          Байкала на электричках.</p>
+        <a class="cover__links" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+          <h2 class="cover__title cover__title_while">До Байкала «на собаках»</h2>
+          <p class="cover__subtitle cover__subtitle_while">По мотивам учебной темы о Транссибе — путешествие от столицы
+            до
+            Байкала на электричках.</p>
+        </a>
       </section>
 
       <!-- Конец Блок cover -->
     </main>
     <!-- Начало Блок  footer-->
     <footer class="footer">
-      <ul class="footer__links">
-        <li class="footer__container-links"><a class="footer__link" href="https://yandex.ru/maps"
-            target="_blank">Карты</a></li>
-        <li class="footer__container-links"><a class="footer__link" href="https://yandex.ru/pogoda"
-            target="_blank">Погода</a></li>
-        <li class="footer__container-links"><a class="footer__link" href="https://rasp.yandex.ru"
-            target="_blank">Расписание</a></li>
-        <li class="footer__container-links"><a class="footer__link" href="https://calendar.yandex.ru"
-            target="_blank">Календарь</a></li>
-        <li class="footer__container-links"><a class="footer__link" href="https://travel.yandex.ru"
-            target="_blank">Путешествия</a></li>
-      </ul>
+      <nav class="footer__navigation">
+        <ul class="footer__links">
+          <li class="footer__container-links"><a class="footer__link" href="https://yandex.ru/maps"
+              target="_blank">Карты</a></li>
+          <li class="footer__container-links"><a class="footer__link" href="https://yandex.ru/pogoda"
+              target="_blank">Погода</a></li>
+          <li class="footer__container-links"><a class="footer__link" href="https://rasp.yandex.ru"
+              target="_blank">Расписание</a></li>
+          <li class="footer__container-links"><a class="footer__link" href="https://calendar.yandex.ru"
+              target="_blank">Календарь</a></li>
+          <li class="footer__container-links"><a class="footer__link" href="https://travel.yandex.ru"
+              target="_blank">Путешествия</a></li>
+        </ul>
+      </nav>
       <p class="footer__copyright"> &#169;2020. Анна</p>
     </footer>
     <!-- Конец Блок  footer-->

@@ -5,13 +5,15 @@
 .footer__container-links:last-child {
     padding-right: 0px;
 }
-
+.footer__container-links:hover {
+    opacity:0.8;
+}
 @media screen and (max-width: 562px) {
     .footer__container-links {
         padding-bottom: 32px;
     }
 
     .footer__container-links:last-child {
-        padding-bottom: 48px;
+        padding-bottom: 35px;
     }
 }

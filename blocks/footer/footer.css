@@ -4,11 +4,13 @@
     padding: 82px 57px 38px;
     max-width: 1184px;
     justify-content: space-between;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
     .footer {
         max-width: 928px;
+        padding: 82px 50px 38px;
     }
 }
 
@@ -22,7 +24,7 @@
 @media screen and (max-width: 562px) {
     .footer {
         max-width: 186px;
-        padding: 64px 118px 24px 16px;
+        padding: 35px 118px 24px 10px;
         flex-direction: column;
-    }
+    }   
 }

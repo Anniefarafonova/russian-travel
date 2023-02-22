@@ -6,31 +6,27 @@
     line-height: 22px;
     text-align: center;
     color: #FFFFFF;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: 419px auto 245px;
+    z-index: 1;
 }
 
 
 @media screen and (max-width: 1024px) {
     .cover__subtitle {
-        margin: 379px auto 195px;
+        margin: 0;
     }
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
     .cover__subtitle {
-        margin: 289px auto 115px;
+        margin: 0;
     }
 }
 
 @media screen and (max-width: 520px) {
     .cover__subtitle {
         max-width: 288px;
-        margin: 119px auto 33px;
+        margin: 0;
+        padding: 0;
         font-size: 14px;
         line-height: 16px;
     }
