@@ -50,10 +50,10 @@
 
 @import url(../blocks/places/places.css);
 
- 
+* {
+    outline: 1px solid red;
+  }
 
 
 
 
-
-@import url(../blocks/content/content.css);
