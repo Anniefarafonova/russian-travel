@@ -5,7 +5,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 27px;
+    line-height: 29px;
     max-width: 484px;
 }
 
@@ -17,6 +17,7 @@
     .place__paragraph {
         font-size: 15px;
         padding-bottom: 20px;
+        line-height: 26px;
     }
 }
 
@@ -24,7 +25,6 @@
     .place__paragraph {
         font-size: 16px;
         padding-bottom: 27px;
-         line-height: 25.6px;
         letter-spacing: 0.4px;
         margin:0;
     }

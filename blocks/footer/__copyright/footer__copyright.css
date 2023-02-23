@@ -9,7 +9,7 @@
     align-self: end;
 }
 
-@media screen and (max-width: 562px) {
+@media screen and (max-width: 639px) {
     .footer__copyright {
         align-self: start;
         padding: 0px 80px 0px 10px;
