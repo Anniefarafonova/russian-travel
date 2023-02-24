@@ -8,8 +8,15 @@
     letter-spacing: 2px;
     text-transform: uppercase;
 }
+
+@media screen and (max-width: 768px) {
+    .place__url-heading {
+        margin: 0 0 5px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .place__url-heading {
-     margin: 0 0 10px;
+        margin: 0;
     }
 }
